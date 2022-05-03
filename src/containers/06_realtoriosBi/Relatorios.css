@@ -1,0 +1,58 @@
+.crmall__relatorios-container{
+    margin: 7rem 0;
+    background-image: url('../../assets/background-4.png');
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+}
+
+.crmall__relatorios-titulo {
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.crmall__relatorios-titulo_numero {
+    border-radius: 100%;
+    margin: 2rem 1rem 2rem 0rem;
+    padding: .3rem .7rem; 
+    background-color: var(--color-azul-claro);
+    color:white;
+    font-size: 22px;
+    font-family: var(--font-1);
+    font-weight: 400;
+}
+
+.crmall__relatorios-titulo_texto{
+    font-size: 18px;
+    font-family: var(--font-1);
+    font-weight: 400;
+    color: var(--color-azul-escuro);
+}
+
+.crmall__relatorios-container_icon {
+    margin-top: -3rem;
+    padding: 0 25px;
+}
+
+.crmall__relatorios-descricao p{
+    font-family: var(--font-1);
+    font-size: 15px;
+    font-weight: 400;
+    color: #404040;
+    padding-left: 85px;
+}
+
+.crmall__relatorios-descricao button {
+    height: 26px;
+    width: 105px;
+    border-radius: 20px;
+    font-family: var(--font-1);
+    font-size: 12px;
+    font-weight: 300;
+    color: white;
+    background-color: var(--color-azul-escuro);
+    margin: 2rem 85px;
+    border:none;
+}
+

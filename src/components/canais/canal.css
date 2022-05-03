@@ -1,0 +1,28 @@
+.crmall__canal h2{
+    font-family: var(--font-1);
+    font-size: 18px;
+    font-weight: 500;
+    color:var(--color-azul-escuro);
+    margin: 1rem 0 1rem 0
+}
+
+.crmall__canal p{
+    font-family: var(--font-1);
+    font-size: 12px;
+    font-weight:400;
+    max-width: 300px;
+    color:#6F7070;
+    margin: 1rem 0 1rem 0
+}
+
+.crmall__canal button{
+    height: 26px;
+    font-family: var(--font-1);
+    width: 100px;
+    background-color: var(--color-azul-escuro);
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
+    border:none;
+    border-radius: 20px;
+}

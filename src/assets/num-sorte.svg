@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="89" height="89" viewBox="0 0 89 89">
+  <g id="num-sorte" transform="translate(-515 -1244)">
+    <g id="Grupo_3077" data-name="Grupo 3077">
+      <path id="Caminho_341" data-name="Caminho 341" d="M67.993,30.529c.172.127.346.251.517.373q.258-.183.517-.373l10.04-10.312a11.74,11.74,0,0,0,1.724-5.76c0-3.843-2.748-6.958-6.141-6.958a6.738,6.738,0,0,0-6.141,4.428A6.731,6.731,0,0,0,62.371,7.5c-3.393,0-6.141,3.116-6.141,6.958a11.753,11.753,0,0,0,1.724,5.76Z" transform="translate(490.492 1257.746)" fill="none" stroke="#80ff98" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Caminho_342" data-name="Caminho 342" d="M69.037,113.7c-.172-.127-.346-.251-.517-.373q-.258.183-.517.373l-10.04,10.312a11.74,11.74,0,0,0-1.724,5.759c0,3.843,2.749,6.958,6.141,6.958a6.738,6.738,0,0,0,6.141-4.428,6.738,6.738,0,0,0,6.141,4.428c3.393,0,6.141-3.116,6.141-6.958a11.753,11.753,0,0,0-1.724-5.759Z" transform="translate(490.484 1175.021)" fill="none" stroke="#80ff98" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Caminho_343" data-name="Caminho 343" d="M113.693,69.841c-.123.172-.244.343-.363.513.119.17.24.341.363.513l10.04,9.965a11.274,11.274,0,0,0,5.608,1.712c3.741,0,6.775-2.729,6.775-6.1a6.68,6.68,0,0,0-4.311-6.1,6.68,6.68,0,0,0,4.311-6.1c0-3.367-3.033-6.1-6.775-6.1a11.286,11.286,0,0,0-5.608,1.712Z" transform="translate(445.53 1218.146)" fill="none" stroke="#80ff98" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Caminho_344" data-name="Caminho 344" d="M29.914,70.875c.123-.173.244-.343.363-.513-.119-.17-.24-.341-.363-.513L19.872,59.882a11.273,11.273,0,0,0-5.608-1.712c-3.741,0-6.775,2.729-6.775,6.1a6.68,6.68,0,0,0,4.311,6.1,6.681,6.681,0,0,0-4.309,6.094c0,3.367,3.033,6.1,6.775,6.1a11.286,11.286,0,0,0,5.608-1.712Z" transform="translate(528.872 1218.139)" fill="none" stroke="#80ff98" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <g id="Elipse_35" data-name="Elipse 35" transform="translate(515 1244)" fill="none" stroke="#80ff98" stroke-width="2">
+      <circle cx="44.5" cy="44.5" r="44.5" stroke="none"/>
+      <circle cx="44.5" cy="44.5" r="43.5" fill="none"/>
+    </g>
+  </g>
+</svg>

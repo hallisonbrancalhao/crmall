@@ -1,0 +1,38 @@
+.crmall__subBanner{
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 6rem;
+}
+
+.crmall__subBanner-textos{
+    padding-top: 5rem;
+    max-width: 500px;
+    margin-right: 4rem;
+}
+
+.crmall__subBanner-textos h2{
+    font-family: var(--font-1);
+    font-size: 28px;
+    font-weight: 400;
+    max-width: 400px;
+    color: var(--color-azul-text)
+}
+
+.crmall__subBanner-textos p{
+    font-family: var(--font-1);
+    font-size: 15px;
+    font-weight: 300;
+    color: var(--color-azul-text);
+    margin-top:2rem;
+    width: 690px;
+}
+
+.crmall__subBanner-imagens{
+    display: grid;
+    flex-direction: column;
+    margin-top: -16rem;
+}
+
+.crmall__subBanner-imagens_infografico{
+    margin-left: 8rem;
+}

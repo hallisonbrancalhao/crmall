@@ -44,3 +44,16 @@
     font-weight: 300;
     color:white;
 }
+
+.crmall__navbar-menu {
+    display: none;
+}
+
+@media screen and (max-width: 1024px){
+    .crmall__navbar-menu{
+        display: flex;
+    }
+    .crmall__navbar-links_container{
+        display: none;
+    }
+}

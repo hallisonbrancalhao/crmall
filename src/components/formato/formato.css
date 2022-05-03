@@ -1,0 +1,34 @@
+.crmall__formato{
+    display: block;
+    text-align: center;
+    margin: 0 2rem;
+    padding-bottom: 3rem;
+}
+
+.crmall__formato h2 {
+    font-family: var(--font-1);
+    font-size: 16px;
+    font-weight: 400;
+    color:white;
+    margin: 1rem 0 1rem 0
+}
+
+.crmall__formato p{
+    font-family: var(--font-1);
+    max-width: 200px;
+    font-size: 12px;
+    font-weight: 200;
+    color:white;
+    margin-bottom: 1rem;
+}
+
+.crmall__formato button{
+    background-color: hsla(300, 100%, 97%, 0);
+    border: 0.5px solid #fff;
+    border-radius: 25px;
+    font-family: var(--font-1);
+    font-size: 12px;
+    font-weight: 400;
+    color:white;
+    padding: .5rem 1rem;
+}

@@ -1,5 +1,5 @@
 .crmall__banner{
-    padding-bottom: 5rem;
+    padding-bottom: 7rem;
 }
 
 .crmall__banner-textos {
@@ -11,10 +11,10 @@
     margin-top: 180px;
     font-family: var(--font-1);
     font-size: 32px;
-    font-weight: 300;
+    font-weight: 200;
 }
 .crmall__banner-textos strong{
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .crmall__banner-textos p {

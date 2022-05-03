@@ -1,15 +1,15 @@
 import React from 'react'
 import './canal.css'
 
-const Canal = (Link, titulo, descricao) => {
+const Canal = ({img, title, text}) => {
   return (
-    <div>
-      <img href={ Link }></img>
-      <h2>{ titulo }</h2>
-      <p>{ descricao }</p>
-      
+    <div className="crmall__canal">
+      <img src= { img } alt="Titulo" />
+      <h2>{ title }</h2>
+      <p>{ text }</p>
+      <button>Mais detalhes</button>
     </div>
   )
 }
 
-export default Canal
+export default Canal;

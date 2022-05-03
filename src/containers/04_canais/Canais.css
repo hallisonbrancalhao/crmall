@@ -1,0 +1,33 @@
+.crmall__canais {
+    padding: 3rem 0;
+}
+
+.crmall__canais-titulo {
+    display: flex;
+    align-items: center;
+}
+
+.crmall__canais-titulo_numero {
+    border-radius: 100%;
+    margin: 2rem 1rem 2rem 0rem;
+    padding: .3rem .7rem; 
+    background-color: var(--color-azul-claro);
+    color:white;
+    font-size: 22px;
+    font-family: var(--font-1);
+    font-weight: 400;
+}
+
+.crmall__canais-titulo_texto{
+    font-size: 18px;
+    font-family: var(--font-1);
+    font-weight: 400;
+    color: var(--color-azul-escuro);
+}
+
+.crmall__canais-components {
+    display: flex;
+    align-items: flex-start;
+    text-align: center;
+    justify-content: space-between;
+}
