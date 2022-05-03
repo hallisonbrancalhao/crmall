@@ -1,0 +1,20 @@
+<svg id="Grupo_1923" data-name="Grupo 1923" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="121.576" height="27.577" viewBox="0 0 121.576 27.577">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_54" data-name="Retângulo 54" width="121.576" height="27.577" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <rect id="Retângulo_49" data-name="Retângulo 49" width="14.81" height="4.461" transform="translate(0 5.31)" fill="#fff"/>
+  <rect id="Retângulo_50" data-name="Retângulo 50" width="19.215" height="4.461" transform="translate(0 14.233)" fill="#fff"/>
+  <rect id="Retângulo_51" data-name="Retângulo 51" width="7.037" height="4.461" transform="translate(0 23.116)" fill="#fff"/>
+  <g id="Grupo_1924" data-name="Grupo 1924">
+    <g id="Grupo_1923-2" data-name="Grupo 1923" clip-path="url(#clip-path)">
+      <path id="Caminho_196" data-name="Caminho 196" d="M831.233,76.6h0a8.785,8.785,0,1,0-2.974,6.568v2.195h2.974V76.6h0m-8.763,5.789a5.789,5.789,0,1,1,5.789-5.79v0a5.789,5.789,0,0,1-5.789,5.788" transform="translate(-721.553 -60.152)" fill="#fff"/>
+      <rect id="Retângulo_52" data-name="Retângulo 52" width="2.974" height="25.207" transform="translate(112.654)" fill="#fff"/>
+      <rect id="Retângulo_53" data-name="Retângulo 53" width="2.974" height="25.207" transform="translate(118.602)" fill="#fff"/>
+      <path id="Caminho_197" data-name="Caminho 197" d="M236.292,78.815a5.789,5.789,0,1,1,0-4.461h3.123a8.763,8.763,0,1,0,0,4.461Z" transform="translate(-197.024 -60.141)" fill="#fff"/>
+      <path id="Caminho_198" data-name="Caminho 198" d="M400.571,76.585v8.763h2.974V76.585a5.789,5.789,0,0,1,5.789-5.789V67.822a8.763,8.763,0,0,0-8.763,8.763" transform="translate(-355.205 -60.141)" fill="#fff"/>
+      <path id="Caminho_199" data-name="Caminho 199" d="M527.521,67.822a8.754,8.754,0,0,0-7.276,3.879,8.763,8.763,0,0,0-16.039,4.884v8.763h2.974V76.585a5.789,5.789,0,0,1,11.578,0v8.763h2.974V76.585a5.789,5.789,0,1,1,11.578,0v8.763h2.974V76.585a8.763,8.763,0,0,0-8.763-8.763" transform="translate(-447.104 -60.141)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

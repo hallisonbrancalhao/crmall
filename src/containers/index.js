@@ -1,0 +1,12 @@
+export { default as NavBar } from './00_navbar/Navbar';
+export { default as Banner } from './01_banner/Banner';
+export { default as SubBanner } from './02_sub-banner/SubBanner';
+export { default as Formatos } from './03_formato/Formatos';
+export { default as Canais } from './04_canais/Canais';
+export { default as Formas } from './05_formas/Formas';
+export { default as RelatoriosBi } from './06_realtoriosBi/Relatorios';
+export { default as TiposDeNegocios } from './07_tiposnegocios/TiposDeNegocios';
+export { default as Cases } from './08_cases/Cases';
+export { default as Clientes } from './09_clientes/Clientes';
+export { default as Formulario } from './10_formulario/Formulario';
+export { default as Footer } from './11_footer/Footer';
