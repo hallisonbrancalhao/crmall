@@ -1,0 +1,18 @@
+.crmall__feature-container{
+    display: flex;
+    background-color: white;
+    padding: .7rem 1.5rem .7rem 1rem;
+    flex-wrap: nowrap;
+    margin:  0 0rem 1rem 0rem;
+}
+
+.crmall__feature-container img{
+    margin-right: .5rem;
+}
+
+.crmall__feature-container h2{
+    color: var(--color-pink);
+    font-family: var(--font-1);
+    font-weight: 500;
+    font-size: 18px;
+}

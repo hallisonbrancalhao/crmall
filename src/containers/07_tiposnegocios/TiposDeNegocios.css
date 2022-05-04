@@ -1,0 +1,21 @@
+.crmall__tiposDeNegocios {
+    display: flex;
+    height: 470px;
+    align-items: center;
+    justify-content: space-between;
+}
+.crmall__tiposDeNegocios-textos h1 {
+    font-family: var(--font-1);
+    font-size: 28px;
+    font-weight: 500;
+    color: var(--color-pink);
+    max-width: 272px;
+    margin-bottom: 1rem;
+}
+
+.crmall__tiposDeNegocios-textos p {
+    font-family: var(--font-1);
+    font-size: 15px;
+    font-weight: 400;
+    max-width: 288px;
+}

@@ -1,9 +1,16 @@
 import React from 'react'
 import './Clientes.css'
 
+import { ClientesImg } from '../../components/index'
+
 const Clientes = () => {
   return (
-    <div>Clientes</div>
+    <div>
+      <div className="crmall__clientes">
+       <ClientesImg />
+      </div>
+
+    </div>
   )
 }
 

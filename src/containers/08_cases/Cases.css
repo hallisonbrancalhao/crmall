@@ -1,0 +1,52 @@
+.crmall__cases {
+    background-image: url('../../assets/bg-cases.png');
+}
+.crmall__cases-slider img{
+    width: 1280px;
+}
+
+.crmall__cases-container {
+    padding: 6rem 0;
+}
+
+.crmall__cases-container h1 {
+    font-family: var(--font-1);
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--color-azul-escuro);
+    padding-left: 1rem;
+}
+
+.crmall__cases-descricao {
+    text-align: center;
+}
+
+.crmall__cases-descricao button {
+    position: relative;
+    left: 30rem;
+    bottom: 4rem;
+    height: 26px;
+    width: 165px;
+    border-radius: 20px;
+    font-family: var(--font-1);
+    font-size: 12px;
+    font-weight: 300;
+    color: white;
+    background-color: var(--color-azul-escuro);
+    margin: 2rem 85px;
+    border:none;
+}
+
+.crmall__cases-descricao h2{
+    font-family: var(--font-1);
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--color-azul-text);
+}
+
+.crmall__cases-descricao p{
+    font-family: var(--font-1);
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--color-azul-text);
+}

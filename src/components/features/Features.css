@@ -1,0 +1,5 @@
+.crmall__features-container{
+    flex-direction: column;
+    columns: 2;
+    margin-left: 2rem;
+}

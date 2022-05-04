@@ -3,23 +3,24 @@ import { NavBar, Banner, SubBanner, Formatos, Canais, Formas, RelatoriosBi, Tipo
 import { Canal, Formato } from './components';
 import './App.css'
 
+
 const App = () => {
   return (
     <div className="App">
-      <div className="banner__bg">
-        <NavBar />
-        <Banner />
-      </div>
-      <SubBanner />
-      <Formatos />
-      <Canais />
-      <Formas />
-      <RelatoriosBi />
-      <TiposDeNegocios />
-      <Cases />
-      <Clientes />
-      <Formulario />
-      <Footer />
+        <div className="banner__bg">
+          <NavBar />
+          <Banner />
+        </div>
+        <SubBanner />
+        <Formatos />
+        <Canais />
+        <Formas />
+        <RelatoriosBi />
+        <TiposDeNegocios />
+        <Cases />
+        <Clientes />
+        <Formulario />
+        <Footer />
     </div>
   )
 }

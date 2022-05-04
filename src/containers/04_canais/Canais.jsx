@@ -11,7 +11,7 @@ const Canais = () => {
     <div className="crmall__canais scale-up-center">
       <div className="crmall__canais-titulo section__margin">
         <p className="crmall__canais-titulo_numero">2</p>
-        <p className="crmall__canais-titulo_texto">Escolha um formato para sua promoção</p>
+        <p className="crmall__canais-titulo_texto">Escolha os canais pelos quais seus clientes participarão</p>
       </div>
       <div className="crmall__canais-components section__margin">
         <Canal img={imagem1} title="Sorteio - Número da Sorte" text=" Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et"/>

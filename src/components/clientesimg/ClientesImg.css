@@ -1,0 +1,11 @@
+.crmall__clientes-container img {
+    margin: 0 2rem;
+}
+
+.crmall__clientes h2{
+    padding: 4rem 1.5rem 2rem 1.5rem;
+    font-family: var(--font-1);
+    font-size: 20px;
+    color: var(--color-azul-escuro);
+    font-weight: 500;
+}

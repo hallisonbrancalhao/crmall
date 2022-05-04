@@ -56,3 +56,85 @@
     border:none;
 }
 
+.crmall__relatorios-subcontainer {
+    display: flex;
+    margin-bottom: 6rem;
+}
+
+.crmall__relatorios-subcontainer-esq, 
+.crmall__relatorios-subcontainer-dir{
+    text-align: center;
+}
+
+.crmall__relatorios-subcontainer-esq{
+    border-right: 1px solid var(--color-azul-claro);
+}
+
+.crmall__relatorios-subcontainer-esq h2, 
+.crmall__relatorios-subcontainer-dir h2{ 
+    font-size: 20px;
+    font-family: var(--font-1);
+    color: var(--color-azul-text);
+    font-weight: 500;
+    padding-bottom: 1rem;
+}
+
+.crmall__relatorios-subcontainer-esq p, 
+.crmall__relatorios-subcontainer-dir p{ 
+    font-size: 14px;
+    font-family: var(--font-1);
+    color: var(--color-cinza-ecuro);
+    font-weight: 300;
+    padding: 0 3rem 2rem 3rem
+}
+
+.crmall__relatorios-subcontainer-esq button {
+    width: 275px;
+    height: 63px;
+    background-color: var(--color-azul-escuro);
+    color: white;
+    font-family: var(--font-1);
+    font-size: 20px;
+    font-weight: 300;
+    border: none;
+    transition: width .3s, height .3s, background-color .3s, transform .3s;
+}
+
+
+.crmall__relatorios-subcontainer-dir button {
+    width: 275px;
+    height: 63px;
+    background-color: rgba(255, 255, 255, 0);
+    color: var(--color-azul-escuro);
+    font-family: var(--font-1);
+    font-size: 20px;
+    font-weight: 300;
+    border: 1px solid var(--color-azul-escuro);
+    transition: width .3s, height .3s, background-color .3s, transform .3s;
+}
+
+/* EFEITOS HOVER */
+
+.crmall__relatorios-subcontainer-esq button:hover {
+    width: 280px;
+    height: 63px;
+    background-color: rgba(255, 255, 255, 0);
+    color: var(--color-azul-escuro);
+    font-family: var(--font-1);
+    font-size: 20px;
+    font-weight: 300;
+    border: 1px solid var(--color-azul-escuro);
+    transition: width .3s, height .3s, background-color .3s, transform .3s;
+}
+
+.crmall__relatorios-subcontainer-dir button:hover {
+    width: 280px;
+    height: 63px;
+    background-color: var(--color-azul-escuro);
+    color: white;
+    font-family: var(--font-1);
+    font-size: 20px;
+    font-weight: 300;
+    border: none;
+    transition: width .3s, height .3s, background-color .3s, transform .3s;
+}

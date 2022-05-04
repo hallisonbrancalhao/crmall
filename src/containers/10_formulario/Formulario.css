@@ -1,0 +1,81 @@
+.crmall__formulario {
+    padding: 2rem 0;
+    display: flex;
+}
+
+.crmall__formulario-textos,
+.crmall__formulario-form{
+    background-color: var(--color-rosa-claro);
+    margin: 4rem 2rem;
+}
+
+.crmall__formulario-textos {
+    text-align: center;
+    padding: 2rem 3rem;
+    width: 384px;
+}
+
+.crmall__formulario-textos h2 {
+    font-family: var(--font-1);
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--color-azul-escuro);
+    padding-bottom: 2rem;
+}
+
+.crmall__formulario-textos p {
+    font-family: var(--font-1);
+    font-size: 14px;
+    font-weight:400;
+    color: var(--color-azul-escuro);
+    padding-top: 2rem;
+}
+
+.crmall__formulario-form {
+    display: block;
+    flex-wrap: wrap;
+}
+
+.crmall__formulario-form_titulo{
+    background-color: var(--color-rosa-claro);
+    padding: 2.5rem 3rem;
+    height: 90px;
+    width: 674px;
+}
+
+.crmall__formulario-form_inputs {
+    background-color: white;
+    padding: 2rem 3rem;
+    height: 85%;
+}
+
+.crmall__formulario-form_inputs label{
+    display: block;
+    font-family: var(--font-1);
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--color-azul-escuro);
+}
+
+.crmall__formulario-form_inputs-telefones{
+    display: flex;
+    justify-content: space-between;
+}
+.crmall__formulario-form_inputs-mid{
+    padding: .6rem;
+    margin: .5rem 0 1rem 0;
+    font-family: var(--font-1);
+    font-size: 15px;
+    min-width: 24vh;
+    background-color: #F5F5F5;
+    border:none;
+}
+.crmall__formulario-form_inputs-full{
+    width: 100%;
+    background-color: #F5F5F5;
+    padding: .6rem;
+    margin: .5rem 0 1rem 0;
+    border:none;
+    font-family: var(--font-1);
+    font-size: 15px;
+}
