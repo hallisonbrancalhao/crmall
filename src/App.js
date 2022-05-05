@@ -1,28 +1,30 @@
 import React from 'react'
-import { NavBar, Banner, SubBanner, Formatos, Canais, Formas, RelatoriosBi, TiposDeNegocios, Cases, Clientes, Footer, Formulario } from './containers';
-import { Canal, Formato } from './components';
 import './App.css'
+import { Routes , Route , Link} from 'react-router-dom';
+
+import Home from "./pages/Home/Home"
+import Contato from "./pages/Contato/Contato"
+import Servicos from "./pages/Servicos/Servicos"
+import Sobre from "./pages/Sobre/Sobre"
+import Navbar from './containers/00_navbar/Navbar';
 
 
-const App = () => {
+function App() {
   return (
-    <div className="App">
-        <div className="banner__bg">
-          <NavBar />
-          <Banner />
-        </div>
-        <SubBanner />
-        <Formatos />
-        <Canais />
-        <Formas />
-        <RelatoriosBi />
-        <TiposDeNegocios />
-        <Cases />
-        <Clientes />
-        <Formulario />
-        <Footer />
-    </div>
-  )
+    <>
+        <header>
+          
+        </header>
+        <main>
+            <Routes>
+                <Route path='/' element={<Home/>} />
+                <Route path='/contato' element={<Contato/>} />
+                <Route path='/servicos' element={<Servicos/>} />
+                <Route path='/sobre' element={<Sobre/>} />
+            </Routes>
+        </main>
+    </>
+  );
 }
 
-export default App
+export default App;

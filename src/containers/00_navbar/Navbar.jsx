@@ -1,5 +1,6 @@
 import React ,{ useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
+import { BrowserRouter as Route , Routes , Router, Link} from 'react-router-dom';
 import './Navbar.css';
 import logo from '../../assets/Crmall-logo.svg';
 
@@ -7,10 +8,10 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const Menu = () => (
     <>
-    <p><a href="#">Home</a></p>
-    <p><a href="#">Serviços</a></p>
-    <p><a href="#">Sobre nós</a></p>
-    <p><a href="#">Contato</a></p>
+      <Link to="/">Home</Link>
+      <Link to="/contato">Contato</Link>
+      <Link to="/sobre">Sobre nós</Link>
+      <Link to="/servicos">Serviços</Link>
     </>
   )
   return (
