@@ -23,18 +23,23 @@ const Formulario = () => {
             <div className="crmall__formulario-form_inputs-telefones">
               <div>
                 <label>Telefone celular</label>
-                <input className="crmall__formulario-form_inputs-mid" type="phone" placeholder='( ) ____ _____' />
+                <input className="crmall__formulario-form_inputs-mid" type="tel" placeholder='( __ ) ____ _____' />
               </div>
               <div>
                 <label>Telefone fixo</label>
-                <input className="crmall__formulario-form_inputs-mid" type="phone" placeholder='( ) ____ _____' />
+                <input className="crmall__formulario-form_inputs-mid" type="tel" placeholder='( __ ) ____ _____' />
               </div>
             </div>
             <label>Mensagem</label>
-            <input className="crmall__formulario-form_inputs-full" type="email" placeholder='Digite sua mensagem' />
-
+            <input className="crmall__formulario-form_inputs-full" type="text" placeholder='Digite sua mensagem' />
+            <div className="crmall__formulario-form_inputs-container">          
+              <button className='crmall__formulario-form_inputs-botao' type="submit">Enviar</button>
+            </div>
           </div>
         </div>
+      </div>
+      <div className="crmall__formulario-sub">
+        <h2 className="section__margin">PROMO é um serviço desenvolvido e prestado por CRMALL Sistemas de Informação de Marketing</h2>
       </div>
     </div>
   )

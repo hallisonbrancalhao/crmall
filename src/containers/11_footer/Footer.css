@@ -1,0 +1,83 @@
+.crmall__footer{
+    display: flex;
+    padding: 6rem 0;
+}
+
+.crmall__footer-dados{
+    align-self: center;
+}
+
+.crmall__footer-bg{
+    background-color: var(--color-azul-escuro);
+}
+
+.crmall__footer-dados_phone{
+    align-items: center;
+    display: flex;
+}
+
+.crmall__footer-dados_phone p{
+    margin-left:1rem ;
+    color:white;
+}
+
+.crmall__footer-dados_email{
+    padding-top: 1rem;
+    align-items: center;
+    display: flex;
+}
+
+.crmall__footer-dados_email p{
+    margin-left:1rem ;
+    color:#7ED2F6;
+}
+
+.crmall__footer-dados_endereco p{
+    margin-bottom: 1rem;
+    font-family: var(--font-1);
+    font-size: 14;
+    font-weight: 300;
+    color:white;
+    width: 290px;
+    padding-top: 1rem;
+}
+
+.crmall__footer-dados_horario p{
+    font-family: var(--font-1);
+    font-size: 12;
+    font-weight: 300;
+    color:#9DAAB3;
+    padding-top: 1rem;
+}
+
+.crmall__footer-links_item{
+    text-decoration: none;
+    color: white;
+}
+
+.crmall__footer-links {
+    padding-right: 13vh;
+    border-right: 0.5px solid #39baff50;;
+}
+
+.crmall__footer-links p{
+    margin: 1.8rem 0;
+    font-family: var(--font-1);
+    font-size: 17;
+    font-weight: 400;
+}
+
+.crmall__footer-dados{
+    padding-left: 5vh;
+}
+
+.crmall__subfooter{
+    text-align: center;
+    background-color: #003D67;
+    padding: 40px 0;
+    align-items: center;
+    font-family: var(--font-1);
+    font-size: 12;
+    font-weight: 400;
+    color:white;
+}
