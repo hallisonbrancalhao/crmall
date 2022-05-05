@@ -57,7 +57,8 @@
 
 .crmall__footer-links {
     padding-right: 13vh;
-    border-right: 0.5px solid #39baff50;;
+    border-right: 0.5px solid #39baff50;
+    margin-left: 10vh;
 }
 
 .crmall__footer-links p{
@@ -74,10 +75,38 @@
 .crmall__subfooter{
     text-align: center;
     background-color: #003D67;
-    padding: 40px 0;
+    padding: 25px 0;
     align-items: center;
     font-family: var(--font-1);
     font-size: 12;
     font-weight: 400;
     color:white;
+}
+
+.crmall__footer-logo_logo{
+    display: block;
+    text-align: center;
+    margin-right: 5vh;
+}
+
+.crmall__footer-logo_logo p{
+    font-family: (--font-2);
+    color: white;
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.crmall__footer-logo{
+    flex: auto;
+    text-align-last: right;
+    margin-right: 5vh;
+}
+
+.crmall__footer-social{
+    margin-top: 4rem;
+    margin-right: 5vh;
+}
+
+.crmall__footer-social a{
+    margin: 2rem 0  0 1rem;
 }

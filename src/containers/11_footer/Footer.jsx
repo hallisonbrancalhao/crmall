@@ -2,6 +2,11 @@ import React from 'react'
 import './Footer.css'
 import iconPhone from '../../assets/iconPhone.png'
 import iconMail from '../../assets/iconMail.png'
+import logo from '../../assets/Crmall-logo.svg'
+import iconYt from '../../assets/icon-yt.svg'
+import iconinsta from '../../assets/icon-insta.svg'
+import iconfacebook from '../../assets/icon-facebook.svg'
+
 
 const Footer = () => {
   return (
@@ -31,9 +36,20 @@ const Footer = () => {
             <p>(Horário de atendimento das 09h às 18h)</p> 
           </div>
         </div>
+        <div className="crmall__footer-logo">
+          <div className="crmall__footer-logo_logo">
+            <img src={logo} alt="" />
+            <p>P R O M O</p>
+          </div>
+          <div className="crmall__footer-social">
+            <a href="https://instagram.com/crmalloficial"><img src={iconinsta} alt="" /></a>
+            <a href="https://www.facebook.com/crmallbrasil"><img src={iconfacebook} alt="" /></a>
+            <a href="https://www.youtube.com/user/crmallmkt"><img src={iconYt} alt="" /></a>
+          </div>
+        </div>
       </div>
       <div className="crmall__subfooter">
-        <p>CRMALL  -  Todos os direitos reservados - 2020</p>
+        <p>© CRMALL  -  Todos os direitos reservados - 2022</p>
       </div>
     </div>
   )

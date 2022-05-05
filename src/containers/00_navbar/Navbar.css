@@ -36,6 +36,11 @@
     flex-direction: row;
 }
 
+.crmall__navbar-menu_container{
+    background-color: var(--color-azul-escuro);
+    height: 100%;
+}
+
 .crmall__navbar-links_container a,
 .crmall__navbar-links_container p{
     font-family: var(--font-1);
