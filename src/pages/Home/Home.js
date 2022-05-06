@@ -7,7 +7,6 @@ export default function Home(){
   return (
     <div className="App">
         <div className="banner__bg">
-          <NavBar />
           <Banner />
         </div>
         <SubBanner />

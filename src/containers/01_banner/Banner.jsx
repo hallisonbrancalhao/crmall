@@ -4,7 +4,7 @@ import './Banner.css';
 
 const Banner = () => {
   return (
-    <div className="crmall__banner">
+    <div className="crmall__banner banner-principal">
       <div className="crmall__banner-textos section__margin">
           <h1><strong>PROMOÇÕES</strong> CRIATIVAS 
               GERAM EXPERIÊNCIAS 
