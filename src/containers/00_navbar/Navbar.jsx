@@ -9,7 +9,7 @@ const Navbar = () => {
   const Menu = () => (
     <>
       <Link to="/">Home</Link>
-      <Link to="/contato">Contato</Link>
+      <a href="/#contato"><p>Contato</p></a>
       <Link to="/sobre">Sobre nós</Link>
       <Link to="/servicos">Serviços</Link>
     </>

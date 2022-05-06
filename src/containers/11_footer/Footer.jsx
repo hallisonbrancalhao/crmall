@@ -6,6 +6,7 @@ import logo from '../../assets/Crmall-logo.svg'
 import iconYt from '../../assets/icon-yt.svg'
 import iconinsta from '../../assets/icon-insta.svg'
 import iconfacebook from '../../assets/icon-facebook.svg'
+import { Link } from 'react-router-dom';
 
 
 const Footer = () => {
@@ -14,10 +15,10 @@ const Footer = () => {
       <div className="crmall__footer section__margin">
         <div className="crmall__footer-links">
           <>
-            <p><a href="#" className="crmall__footer-links_item">Home</a></p>
-            <p><a href="#" className="crmall__footer-links_item">Sobre nós</a></p>
-            <p><a href="#" className="crmall__footer-links_item">Serviços</a></p>
-            <p><a href="#" className="crmall__footer-links_item">Contato</a></p>
+            <a className="crmall__footer-links_item" href="/#home"> <p>Home</p> </a>
+            <a className="crmall__footer-links_item" href="/#contato"> <p>Contato</p> </a>
+            <Link className="crmall__footer-links_item" to="/sobre"><p>Sobre nós</p></Link>
+            <Link className="crmall__footer-links_item" to="/servicos"><p>Serviços</p></Link>
           </>
         </div>
     	  <div className="crmall__footer-dados">

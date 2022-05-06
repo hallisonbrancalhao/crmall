@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavBar, Banner, SubBanner, Formatos, Canais, Formas, RelatoriosBi, TiposDeNegocios, Cases, Clientes, Footer, Formulario } from '../../containers';
+import { Banner, SubBanner, Formatos, Canais, Formas, RelatoriosBi, TiposDeNegocios, Cases, Clientes, Footer, Formulario } from '../../containers';
 import './Home.css'
 
 
@@ -18,7 +18,6 @@ export default function Home(){
         <Cases />
         <Clientes />
         <Formulario />
-        <Footer />
     </div>
   )
 }

@@ -95,6 +95,8 @@
     font-weight: 400; 
     cursor: pointer;
     border: none;
+    cursor: pointer;
+    border-radius: 3px;
 }
 
 .crmall__formulario-form_inputs-container {

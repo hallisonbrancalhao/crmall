@@ -31,4 +31,16 @@
     font-weight: 400;
     color:white;
     padding: .5rem 1rem;
+    cursor:pointer;
+}
+
+.crmall__formato button:hover{
+    background-color: white;
+    border: 0.5px solid #fff;
+    border-radius: 25px;
+    font-family: var(--font-1);
+    font-size: 12px;
+    font-weight: 400;
+    color:#103046;
+    padding: .5rem 1rem;
 }

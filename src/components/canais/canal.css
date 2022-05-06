@@ -16,7 +16,7 @@
 }
 
 .crmall__canal button{
-    height: 26px;
+    height: 1.8rem;
     font-family: var(--font-1);
     width: 100px;
     background-color: var(--color-azul-escuro);
@@ -25,4 +25,11 @@
     font-weight: 300;
     border:none;
     border-radius: 20px;
+    cursor:pointer;
+}
+
+.crmall__canal button:hover{
+    background-color:white ;
+    color: var(--color-azul-escuro);
+    border:1px solid var(--color-azul-escuro);
 }

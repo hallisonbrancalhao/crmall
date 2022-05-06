@@ -7,6 +7,14 @@
     scroll-behavior: smooth;
 } 
 
+.transition-menor button {
+    transition: opacity 170ms ease-in-out,background-color 350ms ease-in-out,color 350ms ease-in-out;
+}
+.transition-menor button:hover {
+    transition: opacity 170ms ease-in-out,background-color 350ms ease-in-out,color 350ms ease-in-out;
+}
+
+
 .crmall__body{
     max-width: 1024px;
     text-align: center;

@@ -98,6 +98,8 @@
     font-weight: 300;
     border: none;
     transition: width .3s, height .3s, background-color .3s, transform .3s;
+    cursor: pointer;
+    border-radius: 3px;
 }
 
 
@@ -111,6 +113,8 @@
     font-weight: 300;
     border: 1px solid var(--color-azul-escuro);
     transition: width .3s, height .3s, background-color .3s, transform .3s;
+    cursor: pointer;
+    border-radius: 3px;
 }
 
 /* EFEITOS HOVER */

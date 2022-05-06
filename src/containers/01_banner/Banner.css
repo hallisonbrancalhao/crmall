@@ -29,6 +29,7 @@
 .crmall__banner-textos button{
     height: 75px;
     width: 336px;
+    border-radius: 4px;
     margin-top: 2rem;
     font-family: var(--font-1);
     font-size: 20px;
@@ -36,4 +37,11 @@
     background-color: var(--color-azul-escuro);
     color: #fff;
     border: none;
+    cursor: pointer;
+    transition: width .3s, height .3s, box-shadow, background-color .3s, transform .3s;
+}
+
+.crmall__banner-textos button:hover{
+    transition: width .3s, height .3s, box-shadow, background-color .3s, transform .3s;
+    background-color: #135F91;
 }

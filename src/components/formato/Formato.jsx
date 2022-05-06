@@ -3,7 +3,7 @@ import './formato.css'
 
 const Formato = ({icon, title, text }) => {
   return (
-    <div className="crmall__formato">
+    <div className="crmall__formato transition-menor">
       <img src={icon} alt="" />
       <h2>{title}</h2>
       <p>{ text }</p>
