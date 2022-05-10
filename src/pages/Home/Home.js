@@ -1,5 +1,5 @@
 import React from 'react'
-import { Banner, SubBanner, Formatos, Canais, Formas, RelatoriosBi, TiposDeNegocios, Cases, Clientes, Footer, Formulario } from '../../containers';
+import { Banner, SubBanner, Formatos, Canais, Formas, RelatoriosBi, TiposDeNegocios, Cases, Clientes, Formulario } from '../../containers';
 import './Home.css'
 
 

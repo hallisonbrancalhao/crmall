@@ -1,26 +1,27 @@
-import React from 'react'
+import React , { useRef } from 'react'
 import './Formulario.css'
 import imgForm from '../../assets/formulario-img.png'
+import emailjs from 'emailjs-com';
 
 const Formulario = () => {
-  const [nome, setNome] = React.useState('');
-  const [email, setEmail] = React.useState('');
-  const [telefoneFixo, setTelefoneFixo] = React.useState('');
-  const [telefoneCelular, setTelefoneCelular] = React.useState('');
+  const form = useRef();
+  //const [nome, setNome] = React.useState('');
+  //const [email, setEmail] = React.useState('');
+  //const [telefoneFixo, setTelefoneFixo] = React.useState('');
+  //const [telefoneCelular, setTelefoneCelular] = React.useState('');
 
   const onSubmit = (e) => {
     e.preventDefault();
-    const data = {
-      nome: e.target.elements.nome.value,
-      email:e.target.elements.email.value,
-      telefoneFixo:e.target.elements.telefoneFixo.value,
-      telefoneCelular:e.target.elements.telefoneCelular.value,
-    }
-    console.log(data)
 
+    emailjs.sendForm('contato_crmall', 'template_zorz93q', form.current, 'iVJ-w2D3sb4090a5f')
+      .then((result) => {
+          alert('Mensagem enviada com sucesso!')
+      }, (error) => {
+        alert(error.message)
+      });
+      e.target.reset();
   }
 
- 
   return (
     <div className='gradient-azul-roxo' id='contato' > 
       <div className='crmall__formulario section__margin '>
@@ -29,28 +30,28 @@ const Formulario = () => {
           <img src={imgForm} alt="" />
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis. Iaculis urna id volutpat lacus laoreet. Mauris vitae ultricies leo integer malesuada. Ac odio tempor orci dapibus ultrices in. Egestas diam in arcu cursus</p>
         </div>
-        <form onSubmit={onSubmit}>
+        <form ref={form} onSubmit={onSubmit} name="contato">
           <div className="crmall__formulario-form">
             <div className="crmall__formulario-form_titulo"><p>Mensagem</p></div>
             <div className="crmall__formulario-form_inputs">
               
               <label>Nome</label>
-              <input  name="nome" className="crmall__formulario-form_inputs-full" type="text" placeholder='Digite o seu nome' />
+              <input required id="nome"  name="nome" className="crmall__formulario-form_inputs-full" type="text" placeholder='Digite o seu nome' />
               <label>E-mail</label>
-              <input name="email" className="crmall__formulario-form_inputs-full" type="email" placeholder='Digite o seu e-mail' />
+              <input required id="email" name="email" className="crmall__formulario-form_inputs-full" type="email" placeholder='Digite o seu e-mail' />
               
               <div className="crmall__formulario-form_inputs-telefones">
                 <div>
                   <label>Telefone celular</label>
-                  <input name="telefoneCelular" className="crmall__formulario-form_inputs-mid" type="tel" placeholder='( __ ) ____ _____' />
+                  <input id="celular" name="telefoneCelular" className="crmall__formulario-form_inputs-mid" type="tel" placeholder='( __ ) ____ _____' />
                 </div>
                 <div>
                   <label>Telefone fixo</label>
-                  <input name="telefoneFixo" className="crmall__formulario-form_inputs-mid" type="tel" placeholder='( __ ) ____ _____' />
+                  <input id="telefone" name="telefoneFixo" className="crmall__formulario-form_inputs-mid" type="tel" placeholder='( __ ) ____ _____' />
                 </div>
               </div>
               <label>Mensagem</label>
-              <input className="crmall__formulario-form_inputs-full" type="text" placeholder='Digite sua mensagem' />
+              <textarea required id="mensgem" className="crmall__formulario-form_inputs-full" type="text" placeholder='Digite sua mensagem' />
               <div className="crmall__formulario-form_inputs-container">          
                 <button className='crmall__formulario-form_inputs-botao' type="submit">Enviar</button>
               </div>
@@ -65,4 +66,4 @@ const Formulario = () => {
   )
 }
 
-export default Formulario
+export default Formulario;
