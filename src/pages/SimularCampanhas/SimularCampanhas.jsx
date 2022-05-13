@@ -1,6 +1,12 @@
-import React from "react";
-import Wizard from "./Wizard/Wizard"
+import React from 'react'
+import Wizard from './Wizard/Wizard'
 
-export default function SimularCampanhas(){
-    <Wizard />
+const SimularCampanhas = () => {
+  return (
+    <div className='section__margin'>
+        <Wizard /> 
+    </div>
+  )
 }
+
+export default SimularCampanhas

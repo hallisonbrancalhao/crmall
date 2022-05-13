@@ -8,6 +8,7 @@ import Sobre from "./pages/Sobre/Sobre"
 import Navbar from './containers/00_navbar/Navbar';
 import { Footer } from './containers';
 import SimularCampanhas from './pages/SimularCampanhas/SimularCampanhas'
+import { Card2, Card3 } from './components';
 
 
 function App() {
@@ -22,6 +23,8 @@ function App() {
                 <Route path='/servicos' element={<Servicos/>} />
                 <Route path='/sobre' element={<Sobre/>} />
                 <Route path='/simular-campanhas' element={<SimularCampanhas />} />
+                <Route path="/simular-campanhas/Card2" element={<Card2 />}/>
+                <Route path="/simular-campanhas/Card3" element={ <Card3 /> }/>
             </Routes>
         </main>
         <footer>

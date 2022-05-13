@@ -1,8 +1,6 @@
 import React from 'react'
 import './Banner.css';
 import { Link } from 'react-router-dom';
-import SimularCampanhas from '../../pages/SimularCampanhas/SimularCampanhas';
-
 
 const Banner = () => {
   return (

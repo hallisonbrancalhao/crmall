@@ -15,7 +15,7 @@ export default function Home(){
         <Formas />
         <RelatoriosBi />
         <TiposDeNegocios />
-        <Cases />
+        <Cases />x
         <Clientes />
         <Formulario />
     </div>

@@ -1,15 +1,17 @@
-import React from 'react'
+import React from "react";
+import { StateMachineProvider } from "little-state-machine";
+import Card1 from "../../../components/CardsWizard/Card1";
 
-const Wizard = () => {
-    
+import "./Wizard.css";
 
-    return (
-        <div>
-            
-            
 
-        </div>
-    )
+function Wizard() {
+  return (
+    <StateMachineProvider>
+      <h1>Page Form Wizzard</h1>
+        <Card1 />
+    </StateMachineProvider>
+  );
 }
 
 export default Wizard
