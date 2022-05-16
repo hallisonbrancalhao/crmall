@@ -10,3 +10,4 @@ export { default as Cases } from './08_cases/Cases';
 export { default as Clientes } from './09_clientes/Clientes';
 export { default as Formulario } from './10_formulario/Formulario';
 export { default as Footer } from './11_footer/Footer';
+export { default as SimuleSuaCampanhaBanner } from './simuleSuaCampanha-banner/banner';

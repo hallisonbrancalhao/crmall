@@ -1,24 +1,22 @@
 import * as React from "react";
+import axios from "axios"
 import { useForm } from "react-hook-form";
-import { Link, Navigate, useNavigate } from "react-router-dom";
-import * as ReactDOM from "react-dom"
-import { useStateMachine } from "little-state-machine";
-import Card2 from "./Card2";
+import { useNavigate, history } from "react-router-dom";
 
 import './Cards.css'
 
 const Card1 = () => {
-  const navigate = useNavigate();
+  const navigation = useNavigate();
   const { register, handleSubmit, getValues } = useForm({
     defaultValues: {
       peso: 0,
     }
   });
 
-  const onSubmit = (data) => {
-    var pesoAntigo = (JSON.stringify(data.peso));
-    navigate("/simular-campanhas/Card2", {pesoAntigo})
-  };
+  function onSubmit(data) {
+    var pesoAntigo = (JSON.parse(data.peso));
+    pesoAntigo = parseInt(pesoAntigo);
+  }
 
   return (
     <form className="crmall__simularCampanha-card1_form" onSubmit={handleSubmit(onSubmit)}>

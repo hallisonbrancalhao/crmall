@@ -1,0 +1,13 @@
+.crmall__simulesuacampanha-banner img{
+    margin-top: -100px;
+    width: 100%;
+}
+
+.crmall__simulesuacampanha-banner_texto{
+    font-family: var(--font-1);
+    font-weight: 500;
+    margin-top: -5vh;
+    color: white;
+    padding-bottom: 5vh;
+}
+
