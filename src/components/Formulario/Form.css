@@ -3,7 +3,7 @@
     padding: 0rem 3rem;
     width: 530px;
     height: 330px;
-    margin: 3rem 3rem 5rem 20rem;
+    margin: 10rem 3rem 15rem 20rem;
     box-shadow: 0 2px 14px 0px #00000022;
     border-radius: 10px;
     border: 1px solid #DEDEDE;
@@ -36,7 +36,7 @@
     padding: 1rem 0 1rem 3rem;
 }
 
-.crmall__simularCampanha-card1_form-button {
+.crmall__simularCampanha-card1_form-button.next {
     padding: .6rem 1.5rem;
     background-color: var(--color-azul-claro);
     border: none;
@@ -48,7 +48,7 @@
     transition: opacity .6s;
 }
 
-.crmall__simularCampanha-card1_form-button-anterior {
+.crmall__simularCampanha-card1_form-button.prev {
     padding: .6rem 1.5rem;
     margin-right: 1rem;
     background-color: #A3A3A3;
@@ -61,8 +61,28 @@
     transition: opacity .6s;
 }
 
-.crmall__simularCampanha-card1_form-button:hover ,
-.crmall__simularCampanha-card1_form-button-anterior:hover {
+.crmall__simularCampanha-card1_form-button.next:hover ,
+.crmall__simularCampanha-card1_form-button.prev:hover {
     opacity: 80%;
     transition: opacity .6s;
 }
+
+.step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;  
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+  }
+  
+  .step.active {
+    opacity: 1;
+  }
+
+  .crmall__simularCampanha-steps {
+    margin-top: 4rem;
+    float: right;
+  }

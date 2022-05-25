@@ -1,12 +1,12 @@
 import React from "react";
-import Card1 from "../../../components/CardsWizard/Card1";
+import Form from "../../../components/Formulario/Form";
 
 import "./Wizard.css";
 
 function Wizard() {
   return (
     <div>
-      <Card1 />
+      <Form />
     </div>
   );
 }
